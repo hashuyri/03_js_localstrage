@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>オセロ2面指し</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>オセロ</h1>
+  </header>
+
+  <main>
+
+    <section>
+      <div>
+        <div class="name_input">
+          <p>先攻</p>
+          <input type="text" class="input">
+        </div>
+        <div class="name_input">
+          <p>後攻</p>
+          <input type="text" class="input">
+        </div>
+      </div>
+      <ul>
+        <li id="save">Save</li>
+        <li id="clear">Clear</li>
+      </ul>
+    </section>
+
+    <section id="game">
+      <div>
+        <p>・クリックで色が変わります</p>
+        <p>・ダブルクリックでクリアできます</p>
+      </div>
+      <table></table>
+    </section>
+
+  </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>

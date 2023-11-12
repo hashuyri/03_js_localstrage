@@ -1,0 +1,91 @@
+main {
+    position: relative;
+}
+
+header {
+    background-color: #222222;
+    border-bottom: 3px solid #ccc;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 45px;
+    color: #fff;
+}
+
+.name_input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    height: 30px;
+    vertical-align: middle;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+input {
+    margin: 0 3%;
+    height: 30px;
+    width: 40%;
+    font-size: 80%;
+    box-shadow: 3px 3px 3px 3px #555;
+}
+
+ul {
+    margin-left: 20%;
+    padding: 0;
+    display: table;
+    /* 定義 */
+    table-layout: fixed;
+    width: 60%;
+}
+
+li {
+    height: 50px;
+    text-align: center; /* テキスト左右中央 */
+    vertical-align: middle; /* テキスト上下中央 */
+    list-style-type: none;
+    border: 4px solid #666;
+    background-color: #FFF;
+    display: table-cell;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+li:hover {
+    background: #0066CC;
+    color: #fff;
+}
+
+#game {
+    margin-bottom: 30px;
+    margin-left: 20%;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.stage {
+    width: 100px;
+    height: 100px;
+    border: 2px black solid;
+    background-color: darkgreen;
+}
+
+.cell {
+    margin: 2.5%;
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: rgba(230, 230, 230, 0.5);
+}
