@@ -17,28 +17,28 @@
   <main>
 
     <section>
-      <div>
-        <div class="name_input">
-          <p>先攻</p>
-          <input type="text" class="input">
-        </div>
-        <div class="name_input">
-          <p>後攻</p>
-          <input type="text" class="input">
-        </div>
-      </div>
       <ul>
-        <li id="save">Save</li>
-        <li id="clear">Clear</li>
+        <li id="save">停戦</li>
+        <li id="clear">クリア</li>
       </ul>
-    </section>
-
-    <section id="game">
       <div>
         <p>・クリックで色が変わります</p>
         <p>・ダブルクリックでクリアできます</p>
       </div>
+    </section>
+    
+    <section id="game">
+      <div class="name_input">
+        <p>先攻（白）</p>
+        <input type="text" class="input">
+        <button class="fix_button" id="white_button"></button>
+      </div>
       <table></table>
+      <div class="name_input">
+        <p>後攻（黒）</p>
+        <input type="text" class="input">
+        <button class="fix_button" id="black_button"></button>
+      </div>
     </section>
 
   </main>
